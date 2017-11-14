@@ -1,7 +1,6 @@
-<?php function __construct() {
-	// Option Tree - Polylang
-	add_filter( 'ot_options_id', 'bea_change_ot_key_with_polylang' );
-}
+<?php
+// Option Tree - Polylang
+add_filter( 'ot_options_id', 'bea_change_ot_key_with_polylang' );
 
 /**
  * Change the key depending on the current lang
